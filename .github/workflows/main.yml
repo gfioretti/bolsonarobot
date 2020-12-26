@@ -31,10 +31,10 @@ jobs:
       - name: Build project with Gradle
         uses: eskatos/gradle-command-action@v1
         env:
-          OAUTH_CONSUMER_KEY: ${{ bot.OAUTH_CONSUMER_KEY }}
-          OAUTH_TOKEN: ${{ bot.OAUTH_TOKEN }}
-          OAUTH_CONSUMER_SECRET: ${{ bot.OAUTH_CONSUMER_SECRET }}
-          OAUTH_ACCESS_TOKEN_SECRET: ${{ bot.OAUTH_ACCESS_TOKEN_SECRET }}
+          OAUTH_CONSUMER_KEY: ${{ secrets.OAUTH_CONSUMER_KEY }}
+          OAUTH_TOKEN: ${{ secrets.OAUTH_TOKEN }}
+          OAUTH_CONSUMER_SECRET: ${{ secrets.OAUTH_CONSUMER_SECRET }}
+          OAUTH_ACCESS_TOKEN_SECRET: ${{ secrets.OAUTH_ACCESS_TOKEN_SECRET }}
         with:
           arguments: run
         
