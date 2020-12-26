@@ -6,10 +6,10 @@ val twitterClientLogger = KotlinLogging.logger {}
 class TwitterClient {
     private val config = ConfigurationBuilder()
         .setDebugEnabled(true)
-        .setOAuthConsumerKey(Props.OAUTH_CONSUMER_KEY)
-        .setOAuthConsumerSecret(Props.OAUTH_CONSUMER_SECRET)
-        .setOAuthAccessToken(Props.OAUTH_TOKEN)
-        .setOAuthAccessTokenSecret(Props.OAUTH_ACCESS_TOKEN_SECRET)
+        .setOAuthConsumerKey(Props.OAUTH_CONSUMER_KEY.also { twitterClientLogger.info { it } })
+        .setOAuthConsumerSecret(Props.OAUTH_CONSUMER_SECRET.also { twitterClientLogger.info { it } })
+        .setOAuthAccessToken(Props.OAUTH_TOKEN.also { twitterClientLogger.info { it } })
+        .setOAuthAccessTokenSecret(Props.OAUTH_ACCESS_TOKEN_SECRET.also { twitterClientLogger.info { it } })
         .build()
     private val twitterInstance = TwitterFactory(config).instance
 
