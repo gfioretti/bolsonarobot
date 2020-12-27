@@ -1,4 +1,3 @@
-ábaco-harmônico
 ábaco-logístico
 ábaco-mágico
 abacomitato
