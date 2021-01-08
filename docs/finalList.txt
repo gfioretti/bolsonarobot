@@ -1,4 +1,3 @@
-abelha-de-fogo
 abelha-de-mel
 abelha-de-ouro
 abelha-de-pau
