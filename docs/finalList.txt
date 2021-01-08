@@ -1,4 +1,3 @@
-abelha-do-reino
 abelha-doméstica
 abelha-escura
 abelha-europa
