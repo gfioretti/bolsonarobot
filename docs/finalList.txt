@@ -1,4 +1,3 @@
-abelha-comum
 abelha-criança
 abelha-da-europa
 abelha-da-terra
