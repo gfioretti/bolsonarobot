@@ -1,4 +1,3 @@
-abelha-bota-fogo
 abelha-brava
 abelha-cachorro
 abelha-caga-fogo
