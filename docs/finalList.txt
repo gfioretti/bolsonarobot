@@ -1,4 +1,3 @@
-abelha-campeadora
 abelha-caucasiana
 abelha-comum
 abelha-criança
