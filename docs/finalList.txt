@@ -1,4 +1,3 @@
-abelha-ouro
 abelha-papa-terra
 abelha-preta
 abelha-rainha
