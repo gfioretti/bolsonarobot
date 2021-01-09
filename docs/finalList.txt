@@ -1,4 +1,3 @@
-abelha-mulata
 abelha-neutra
 abelha-obreira
 abelha-operária
