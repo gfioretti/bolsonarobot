@@ -1,4 +1,3 @@
-abelha-obreira
 abelha-operária
 abelha-ouro
 abelha-papa-terra
