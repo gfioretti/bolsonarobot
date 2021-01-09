@@ -1,4 +1,3 @@
-abelha-mãe
 abelha-mestra
 abelha-mirim
 abelha-mosquito
