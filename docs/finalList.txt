@@ -1,4 +1,3 @@
-abelha-limão
 abelha-macho
 abelha-mãe
 abelha-mestra
