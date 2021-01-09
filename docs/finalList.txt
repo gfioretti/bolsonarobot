@@ -1,4 +1,3 @@
-abelha-rainha
 abelha-sanharó
 abelha-sem-ferrão
 abelha-uruçu
